@@ -1,3 +1,4 @@
+笔记：
 string转成int：
 int, _ := strconv.Atoi(string)
 
