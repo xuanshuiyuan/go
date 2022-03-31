@@ -12,4 +12,10 @@ int64转成string：
 string := strconv.FormatInt(int64,10)
 
 float64转成string：
-string := strconv.FormatFloat(float64, 'E', -1, 64)
+string := strconv.FormatFloat(float64, 'f', -1, 64)
+// 'b' (-ddddp±ddd，二进制指数)
+// 'e' (-d.dddde±dd，十进制指数)
+// 'E' (-d.ddddE±dd，十进制指数)
+// 'f' (-ddd.dddd，没有指数)
+// 'g' ('e':大指数，'f':其它情况)
+// 'G' ('E':大指数，'f':其它情况)
