@@ -10,3 +10,6 @@ string := strconv.Itoa(int)
 
 int64转成string：
 string := strconv.FormatInt(int64,10)
+
+float64转成string：
+string := strconv.FormatFloat(float64, 'E', -1, 64)
